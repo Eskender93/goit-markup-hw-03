@@ -1,3 +1,4 @@
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -13,7 +14,7 @@ p {
   margin: 0;
 }
 
-image {
+img {
   display: block;
 }
 
@@ -290,6 +291,7 @@ address {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin: auto;
 }
 
 .team-item {
@@ -301,6 +303,7 @@ address {
   width: 264px;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-right: 0;
 }
 
 .team-subtitle {
