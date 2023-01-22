@@ -89,6 +89,7 @@ address {
 
 .header {
   background-color: #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 .header-nav {
   display: flex;
@@ -398,12 +399,9 @@ address {
 .customer-link:is(:hover, :focus) {
   border-color: #4d5ae5;
 }
-.customer-link:is(:hover, :focus) .customer-icon{
+.customer-link:is(:hover, :focus) .customer-icon {
   fill: #4d5ae5;
 }
-
-
-
 
 /* FOOTER */
 .footer {
@@ -476,9 +474,6 @@ address {
   background-color: #ffffff;
   padding-top: 96px;
   padding-bottom: 120px;
-  border-top: 2px solid #ffffff;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-portfolio {
 }
